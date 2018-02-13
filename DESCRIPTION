@@ -1,0 +1,31 @@
+Package: OutbreakDetector
+Version: 1.1.1
+>>>>>>> upstream/master
+Type: Package
+Title: Disease monitoring and outbreak detection
+
+? adi syndromic surveillance mi olsun galiba:
+Syndromic surveillance is an investigational approach by which health department staff members, 
+assisted by automated data acquisition and generation of statistical signals (computerized algorithms), 
+monitor disease indicators continually to detect outbreaks of disease earlier and more completely than might otherwise 
+be possible with traditional reportable disease methods
+
+Version: 1.0
+Date: 2017-12-19
+Authors@R: c(person("Zeynep Filiz", "Eren-Dogu", role = c("aut", "cre"),
+         email = "zferendogu@gmail.com"),
+         person("Eralp", "Dogu", role = "aut",
+         email = "eralp.dogu@gmail.com") )
+Description: This is a package to detect disease outbreaks
+License: Artistic License 2.0
+LazyData: TRUE
+RoxygenNote: 6.0.1.9000
+
+? bu alttaki kisimlara bakilacak
+
+Imports:
+    dplyr,plotly,RecordLinkage,ggplot2,ggExtra,
+    stats,grid,lubridate 
+Suggests:knitr,rmarkdown, testthat, RforProteomics
+VignetteBuilder: knitr
+biocViews: Software, QualityControl, Proteomics, MassSpectrometry
