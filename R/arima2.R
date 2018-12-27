@@ -355,4 +355,4 @@ rm(tmp)
 rm(dataNum)
 
 }
-return(cusum_result)
+#return(cusum_result)
